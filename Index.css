@@ -1,12 +1,22 @@
 
+h1 {
+  text-align: left;
+  text-transform: uppercase;
+  color: #9b1b86;
+  font-family:Lucida Handwriting;
+}
 
-
-
+h2 {
+  text-align: left;
+  text-transform: lowercase;
+  color: #1b9b3b;
+  font-family:papyrus;
+}
 
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;
-    border: 1px solid rgb(80, 9, 196);
+    border: 1px solid rgb(70, 179, 76);
     border-radius: 20px;
     box-sizing: border-box; 
     margin-top: 2px; 
@@ -16,7 +26,7 @@ input[type=text], select, textarea {
   
  
   input[type=submit] {
-    background-color: #0b0b0c;
+    background-color: #29be35;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -26,13 +36,15 @@ input[type=text], select, textarea {
   
   
   input[type=submit]:hover {
-    background-color: #306629;
+    background-color: #b650a5;
   }
   
  
   .container {
     border-radius: 10px;
-    background-color: #949799;
+    background-color: #999497;
     padding: 20px;
     
+
+
   }
