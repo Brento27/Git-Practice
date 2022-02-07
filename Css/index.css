@@ -1,0 +1,52 @@
+/* TopNav Bg-Color */
+.topNav {
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+/* Style of links in Navbar */
+.topNav a {
+    float: right;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+/* Left align navbar */
+.topNav-a-shoes {
+    float: left;
+}
+
+/*color change hover on links*/
+.topNav a:hover {
+    background-color: beige;
+    color: black;
+}
+
+/*current navbar link color */
+.topNav a.active {
+    background-color: blueviolet;
+    color: white;
+}
+
+/*Main Body style*/
+#mainBody {
+    background-color: white;
+}
+/*Heading style*/
+#mainHeading {
+    text-align: center;
+}
+
+/* line beneath main heading */
+#heading1Line {
+    width: 75%;
+    height: 0.05cm;
+    background-color: black;
+    border-color: white;
+}
+
+.headings {
+    text-align: center
+}
