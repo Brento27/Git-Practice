@@ -11,6 +11,7 @@
     text-align: center;
     padding: 14px 16px;
     font-size: 17px;
+    text-decoration: none;
 }
 
 /* Left align navbar */
@@ -34,6 +35,7 @@
 #mainBody {
     background-color: white;
 }
+
 /*Heading style*/
 #mainHeading {
     text-align: center;
@@ -47,6 +49,147 @@
     border-color: white;
 }
 
+/* Align heading*/
 .headings {
     text-align: center
+}
+
+/*grid code for items*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+
+.more-info-Btn {
+    border: 3px solid #111;
+    padding: 10px;
+    color: #111;
+    text-decoration: none;
+}
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+#item1 .popup-content {
+    width: 600px;
+    height: 600px;
+    margin: 100px;
+    position: relative;
+    border: 5px fff;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #222;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    line-height: 0;
+    padding: 9px 0 11px;
+    width: 20px;
+    text-align: center;
+}
+
+.popup:target  {
+    display: block;
+}
+/*.grid-container div:nth-child(even) {
+    background-color: blue;
+}
+
+.grid-container div:nth-child(odd) {
+    background-color: yellowgreen;
+}*/
+
+/*Footer Section Styling*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    background-color: aquamarine;
+    padding-bottom: 4rem;
+}
+
+.footer {
+    width: 100%;
+    height: 40vh;
+    background-color: aquamarine;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-Heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-Heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-Heading a {
+    color: blue;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-Heading a:hover {
+    color: blueviolet;
+    transition: 0.3s ease-out;
+}
+
+.footer-email-form h2{
+    margin-bottom: 2rem;
+}
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+    color: blue;
+}
+
+#footer-email-Btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+}
+
+#footer-email-Btn:hover {
+    cursor: pointer;
+    background-color: beige;
+    transition: all 0.4s ease-out;
+    color: #111;
 }
