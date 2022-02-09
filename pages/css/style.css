@@ -1,0 +1,151 @@
+/* TopNav Bg-Color */
+.topNav {
+    background-color: rgb(94, 93, 93);
+    overflow: hidden;
+}
+
+/* Style of links in Navbar */
+.topNav a {
+    float: right;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+/* Left align navbar */
+.topNav-a-shoes {
+    float: left;
+}
+
+/*color change hover on links*/
+.topNav a:hover {
+    background-color: rgb(150, 163, 238);
+    color: black;
+}
+
+/*current navbar link color */
+.topNav a.active {
+    background-color: rgb(241, 158, 33);
+    color: white;
+}
+
+.container{
+    background-color: cadetblue;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+.heading{
+  text-align: center; 
+  background-color: rgb(162, 83, 182);
+  border-style: solid;
+  border-color: black;
+  text-decoration: none;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.grid-container .foto-fluid {
+  display: grid;
+  height: 360px;
+  align-content: center;
+  grid-template-columns:auto auto auto;
+  grid-gap: 10px;
+  background-color: #99a1b9;
+  padding: 10px;
+}
+.grid-container .foto-fluid:hover img{
+  transform: scale(2.1);
+}
+
+
+
+.box {
+  flex: 0 0 auto;
+  width: 22%;
+  float: left;
+}
+
+.airzoom{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem; 
+}
+
+.caption {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #0e0f0f;
+  text-align: center;
+}
+
+.air-section{
+    background-color: rgb(53, 81, 82);
+    padding-top: 9.5rem;
+    padding-bottom: 9.5rem;
+}
+
+
+.h1{
+  text-align: center;
+  display: flex;
+  font: bold;
+}
+
+  .shoe-one{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+    
+  }
+ 
+  .caption-one {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    color: #000000;
+    text-align: center;
+    
+  }
+ 
+  .foto-fluid{
+     display: grid;
+      height: 240px;
+      width: auto;
+      margin: 5px;
+      border-style: solid;
+      
+  }
+
+  .photo-fluid{display: flex;
+      width: 250px;
+      height: 350px;
+      margin: 10px;
+    border-style: solid;
+    border-color: rgb(119, 112, 112);
+    border-width: 2px;
+    }
+    
+
+
+  .col-lg-5 {
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    width: 22%;
+    float: none;
+  }
+  .p1{
+    text-align: left;
+  }
+  .sizes{
+    text-align: center;
+  }
+ 
