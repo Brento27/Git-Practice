@@ -163,6 +163,31 @@
     text-align: center;
 }
 
+/*Ext link website button*/
+
+.ext-link {
+    position: absolute;
+    bottom: 5px;
+    text-decoration: none;
+    border: 3px solid blueviolet;
+    right: 30%;
+    width: 320px;
+    text-align: center;
+    font-size: 50px;
+    background-color: beige;
+    color: aqua;
+}
+
+.popup .popup-content .popup-content-h1 {
+    position: absolute;
+    top: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 100px;
+    color: aqua;
+    left: 6%;
+}
+
 /*Popup image Styling*/
 
 .popup .popup-content img {
