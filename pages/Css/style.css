@@ -29,29 +29,7 @@
     background-color: rgb(241, 158, 33);
     color: white;
 }
-/*changes the section*/
-.content-section{
-    background-color: rgb(176, 176, 194);
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem;
-}
 
-.grid-container {
-  display: grid;
-  height: 400px;
-  align-content: end;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  background-color: #4a4b4e;
-  padding: 10px;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
 .container{
     background-color: cadetblue;
     text-align: center;
@@ -64,6 +42,7 @@
   background-color: rgb(162, 83, 182);
   border-style: solid;
   border-color: black;
+  text-decoration: none;
 }
 
 .row::after {
@@ -71,12 +50,25 @@
   clear: both;
   display: table;
 }
+.grid-container .foto-fluid {
+  display: grid;
+  height: 360px;
+  align-content: center;
+  grid-template-columns:auto auto auto;
+  grid-gap: 10px;
+  background-color: #99a1b9;
+  padding: 10px;
+}
+.grid-container .foto-fluid:hover img{
+  transform: scale(2.1);
+}
+
+
 
 .box {
   flex: 0 0 auto;
   width: 22%;
   float: left;
-  align-items:flex-start;
 }
 
 .airzoom{
@@ -104,6 +96,7 @@
 .h1{
   text-align: center;
   display: flex;
+  font: bold;
 }
 
   .shoe-one{
@@ -118,24 +111,29 @@
   .caption-one {
     padding-top: 0.5rem;
     padding-bottom: 1rem;
-    color: #080808;
+    color: #000000;
     text-align: center;
+    
   }
  
   .foto-fluid{
      display: grid;
       height: 240px;
       width: auto;
-      float: left;
       margin: 5px;
       border-style: solid;
       
   }
 
-  .photo-fluid{display: inline-block;
-      width: 150px;
-      height: 150px;
-      margin: 10px;}
+  .photo-fluid{display: flex;
+      width: 250px;
+      height: 350px;
+      margin: 10px;
+    border-style: solid;
+    border-color: rgb(119, 112, 112);
+    border-width: 2px;
+    }
+    
 
 
   .col-lg-5 {
@@ -143,5 +141,11 @@
     flex-wrap: wrap;
     width: 22%;
     float: none;
+  }
+  .p1{
+    text-align: left;
+  }
+  .sizes{
+    text-align: center;
   }
  
