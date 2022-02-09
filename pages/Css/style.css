@@ -133,6 +133,12 @@
     border-color: rgb(119, 112, 112);
     border-width: 2px;
     }
+
+    .foto-fluid:hover{
+      
+      transform: scale(1.1);
+      
+    }
     
 
 
