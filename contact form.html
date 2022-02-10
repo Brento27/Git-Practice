@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./pages/css/index1.css'>
+    <title>Bootstrap 5 Responsive Contact Us Form with Social Icons</title>
+    <style>
+      body {
+      padding: 0;
+      margin: 15%;
+      font-family: "Nunito Sans";
+      background-image: url(pages/Assets/what-is-the-nike-affiliate-programme-nike-help.jpg);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+     
+      }
+       ul{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      }
+      li,h3{
+      color: white;
+      }
+      h3{
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0;
+      }
+      .form-control {
+      line-height: 2;
+
+     
+      }
+      .bg-custom {
+      background: blueviolet;
+      opacity: 0.6;
+      }
+
+
+      .btn-custom {
+      background-color: blueviolet;
+      color: #fff;
+      }
+
+      .bg-white {
+      opacity: 0.6;
+      }
+
+      .btn-custom:hover {
+      background-color: blueviolet;
+      color: #fff;
+      }
+      .social-icons{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100%;
+      }
+      
+      .social-icons .fa{
+      font-size: 50px;
+      padding-bottom:20px;
+      cursor: pointer;
+   
+      }
+    
+      .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook {
+  color: black;
+}
+.fa-twitter {
+  color: black;
+}
+.fa-pinterest {
+  color: black;
+}
+.fa-linkedin {
+  color: black;
+}
+.fa-instagram {
+  color: black;
+}
+      
+    </style>
+  </head>
+  <body>
+     <!--Top NavBar-->
+     <div class="topNav" id="navbar">
+      <a class="active" href="index.html">Home</a>
+          <a href="contact form.html">Contact</a>
+          <a href="about section.html">About</a>
+          <a style="float:left" href="jordan-site.html">Men</a>
+          <a style="float:left" href="./womenshoes.html">Women</a>
+  </div>
+    <div class="container  mt-5 mb-5">
+      <div class="row m-0">
+        <div class="col-md-3 bg-custom p-0 d-flex text-center  justify-content-center flex-column display-none">
+          <h3 class="mb-2">Contact Info</h3>
+          <div class="info">
+            <ul>
+              <li>Nike South Africa</li>
+              <li>nike.sa@gmail.com</li>
+              <li>011 800 6000 / 0800 248 999</li>
+            </ul>
+            <div class="social-icons">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 p-0 bg-danger pt-4 pb-4" >
+          <h3 class="pl-4">Contact Us</h3>
+          <form class="w-100 p-4" action="mailto:nike.sa@gmail.com" enctype="text/plain">
+            
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email" required>
+                </div>
+              </div>
+              
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <textarea  class="form-control" id="exampleFormControlInput2" placeholder="Message" required rows="3"></textarea>
+                </div>
+               
+              </div>
+            </div>
+            <button type="submit" class="btn btn-custom btn-lg btn-block mt-3">Send Now</button>
+            <form method="post" action="mailto:nike.sa@gmail.com" >
+        
+          </form>
+        </div>
+        <div class="col-md-1 bg-white display-none ">
+          <div class="social-icons">
+            <li> 
+              <a href="https://web.facebook.com/nike/?_rdc=1&_rdr" class="fa fa-facebook"> </a> 
+              </li>
+              <li> 
+                <a href="https://twitter.com/Nike?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"> </a> 
+                </li>
+                <li> 
+                  <a href="https://za.pinterest.com/nike/" class="fa fa-pinterest"> </a> 
+                  </li>
+                  <li> 
+                    <a href="https://www.linkedin.com/company/nike" class="fa fa-linkedin"> </a> 
+                    </li>
+                    <li> 
+                      <a href="https://www.instagram.com/nike/?hl=en" class="fa fa-instagram"> </a> 
+                      </li>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

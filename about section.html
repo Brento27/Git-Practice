@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='pages/css/index.css'>
+   <style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    margin-bottom: 10px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(228, 203, 94, 0.2);
+    margin: 8px;
+    background-color: blueviolet;
+    color:rgb(255, 255, 255);
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align:center;
+    background-color:aquamarine;
+    color: black;
+    
+  }
+  
+  .our-mission{
+    padding: 50px;
+    text-align: center;
+    background-image: url(pages/Assets/mission\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    color:black;
+    
+  }
+  .container-Thlokomelo {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: white;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  
+}
+   </style>
+</head>
+<body>
+   <!--Top NavBar-->
+   <div class="topNav" id="navbar">
+    <a class="active" href="index.html">Home</a>
+        <a href="contact form.html">Contact</a>
+        <a href="about section.html">About</a>
+        <a style="float:left" href="./jordan-site.html">Men</a>
+        <a style="float:left" href="./womenshoes.html">Women</a>
+</div>
+
+    <div class="our-mission">
+        <h1>Our Mission:</h1>
+        <p>
+            BRING INSPIRATION
+            AND INNOVATION
+            TO EVERY ATHLETE*
+            IN THE WORLD
+            *IF YOU HAVE A BODY, YOU ARE AN ATHLETE.</p>
+
+        <p>Based in all nine South African provinces, NIKE, Inc. includes the Nike and Jordan brands.</p>
+      </div>
+
+    <div class="about-section 2">
+        <h1>About Nike South Africa:</h1>
+        <p>Our mission is what drives us to do everything possible to expand human potential. 
+            We do that by creating groundbreaking sport innovations, by making our products more sustainably, 
+            by building a creative and diverse global team and by making a positive impact in communities where we live and work</p>
+
+        <p>Based in all nine South African provinces, NIKE, Inc. includes the Nike and Jordan brands.</p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="pages/Assets/Female exec.jpg" alt="Thlokomelo" style="width:100%">
+            <div class="container-Thlokomelo">
+              <h2>Thlokomelo</h2>
+              <p class="title">Managing Director</p>
+              <p>thlokomelo@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="pages/Assets/exec 3.jpg" alt="Brent" style="width: 100%;">
+            <div class="container-Thlokomelo">
+              <h2>Brent</h2>
+              <p class="title">Creative Director</p>
+              <p>brent@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="pages/Assets/exec 2.jpg" alt="Dyllin" style="width:100%">
+                <div class="container-Thlokomelo">
+                  <h2>Dyllin</h2>
+                  <p class="title">Designer</p>
+                  <p>dyllin@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="pages/Assets/Kgoro Image.jpg" alt="Kgoro" style="width:100%">
+                <div class="container-Thlokomelo">
+                  <h2>Kgoro</h2>
+                  <p class="title">Marketing and Sales</p>
+                  <p>kgoro@gmail.com</p>
+                </div>
+              </div>
+            </div>
+    
+        </div>
+    <script src='Pages/JS/Index.js'></script>
+</body>
+</html>
